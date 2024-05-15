@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mazeball.AcercaDe"
+    android:background="@mipmap/fondomenu2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:text="ABOUT US"
+        android:textColor="#FFFFFF"
+        android:id="@+id/titulo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:text="Game made by:"
+        android:textAlignment="center"
+        android:linksClickable="true"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/about"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:clickable="true"
+        android:text="Aarón Prades"
+        android:onClick="onClick"
+        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/igAaron"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:text="Axel Valverde"
+        android:onClick="onClick"
+        android:linksClickable="true"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/igAxel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="#70FFFFFF"
+        android:text="Click on the names to go to instagram"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/info"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/txtGithub"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_marginTop="510dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:clickable="true"
+        android:text="https://github.com/Axel96VS/MazeBall"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_marginTop="540dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="#FFFFFF"
+        android:text="v0.1"
+        android:layout_marginTop="490dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

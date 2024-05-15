@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mazeball.MainActivity"
+    android:background="@mipmap/fondomenu2">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/logo2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/opciones"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/border_button"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/opciones"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Options"
+        android:background="@drawable/border_button2"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/acercade"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="About us"
+        android:background="@drawable/border_button2"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/opciones"
+        android:layout_alignStart="@+id/opciones" />
+
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:background="@drawable/border_button2"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/acercade"
+        android:layout_alignStart="@+id/acercade"
+        android:layout_marginTop="35dp" />
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MazeBall</string>
+    <string name="txtGithub">GitHub project</string>
+</resources>

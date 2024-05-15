@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/opciones"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondomenu2"
+    tools:context="com.example.mazeball.Opciones">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:text="OPTIONS"
+        android:textColor="#FFFFFF"
+        android:id="@+id/titulo"/>
+
+    <Switch
+        android:id="@+id/switchsonido"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="90dp"
+        android:text="Music"
+        android:textColor="@color/blanco"
+        android:textSize="20dp"
+        android:checked="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="20dp"
+        android:text="Difficulty"
+        android:textColor="#FFFFFF"
+        android:id="@+id/dificultad" />
+
+    <RadioGroup
+        android:id="@+id/RG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="0dp">
+    <RadioButton
+        android:id="@+id/dif1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp"
+        android:text="Mapa 1"
+        android:layout_below="@+id/dificultad"
+        android:textColor="@color/blanco"/>
+
+    <RadioButton
+        android:id="@+id/dif2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="90dp"
+        android:text="Mapa 2"
+        android:layout_below="@+id/dif1"
+        android:textColor="@color/blanco"/>
+
+    <RadioButton
+        android:id="@+id/dif3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="90dp"
+        android:text="Mapa 3"
+        android:layout_below="@+id/dif2"
+        android:textColor="@color/blanco"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/saveOptions"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RG1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/border_button"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="Save" />
+
+</RelativeLayout>
